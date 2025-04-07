@@ -58,7 +58,7 @@ document.getElementById('login-form').addEventListener('submit', function (e) {
         document.getElementById('loading-overlay').style.display = 'none';
 
         // Redirigir a otro documento HTML
-        window.location.href = "loader.html";
+        window.location.href = "./loader.html";b
     }, 2000);
 });
 
