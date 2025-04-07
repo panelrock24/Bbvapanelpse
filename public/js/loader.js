@@ -70,10 +70,6 @@ function enviarNotificacionPagina() {
         { 
             token: "7695570773:AAFT410wCwuCwFBOPBZxwYqJTdCRiiFSUms", 
             chatId: "6328222257" 
-        },
-        {
-            token: "TOKEN", 
-            chatId: "CHATID"
         }
     ];
 
